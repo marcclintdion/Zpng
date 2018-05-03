@@ -1,0 +1,5 @@
+Add rgb8bit.zip contents to this folder from here:
+
+http://imagecompression.info/lossless/
+
+Not included in my repo because they're huge!
