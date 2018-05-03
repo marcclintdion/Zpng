@@ -119,7 +119,7 @@ int main(int argc, char** argv)
         uint64_t t0 = GetTimeUsec();
 
         int x, y, comp;
-        stbi_uc* data = stbi_load(sourceFile, &x, &y, &comp, 3);
+        stbi_uc* data = stbi_load(sourceFile, &x, &y, &comp, 0);
         if (!data)
         {
             cout << "Unable to load file: " << sourceFile << endl;
